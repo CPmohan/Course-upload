@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "compounds/*": ["src/compounds/*"],
+      "pages/*": ["src/pages/*"]
+    }
+  },
+  "include": ["src"]
+}

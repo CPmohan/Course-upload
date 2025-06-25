@@ -1,0 +1,33 @@
+.custom-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+  border-radius: 10px;
+  box-shadow: 24px;
+  outline: none;
+  overflow: auto;
+  max-height: 85vh;
+  padding: 20px;
+  background-color: white;
+}
+
+@media (max-width: 700px) {
+  .custom-dialog {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .custom-dialog {
+    width: 300px;
+  }
+}
+
+@media (max-width: 300px) {
+  .custom-dialog {
+    width: 250px;
+    padding: 10px;
+  }
+}
