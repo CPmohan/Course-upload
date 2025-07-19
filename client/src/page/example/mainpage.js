@@ -44,7 +44,7 @@ function BasicExample() {
   useEffect(() => {
     fetchCourseData();
   }, []);
-
+  
   const fetchCourseData = () => {
     setLoading(true);
     axios.get("http://localhost:8080/api/courses")
